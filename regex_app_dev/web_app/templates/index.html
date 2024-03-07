@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regex WebApp</title>
+</head>
+<body>
+    <h1>Regex WebApp</h1>
+    <form action="/results" method="post">
+        <label for="test_string">Test String:</label><br>
+        <input type="text" id="test_string" name="test_string" value=""><br>
+        <label for="regex_pattern">Regex Pattern:</label><br>
+        <input type="text" id="regex_pattern" name="regex_pattern" value=""><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2>Email Validation</h2>
+    <form action="/validate_email" method="post">
+        <label for="email">Email Address:</label><br>
+        <input type="text" id="email" name="email" value=""><br><br>
+        <input type="submit" value="Validate Email">
+    </form>
+</body>
+</html>
